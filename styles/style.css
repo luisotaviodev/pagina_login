@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-de-fundo: #E5E5E5;
+    --cor-fonte-btn: #FFFFFF;
+    --cor-fonte-padrão: #000000;
+    --cor-de-fundo-input: #DFDFDF;
+    --cor-de-fundo-btn: #212529;
+    --cor-fonte-input: #9F9F9F;
+
+    --fonte-principal: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_secao_img{
+    margin-top: 2em;
+}
+
+.login_secao_container{
+    margin-top: -20%;
+}
+
+.login_secao_container_texto{
+    font-size: 30px;
+    margin-bottom: 0.5em;
+
+}
+
+.login_secao_container_input{
+    width: 34em;
+    height: 5em;
+    border-radius: 20px;
+    background: var(--cor-de-fundo-input);
+    
+}
+
+input{
+    padding-left: 17px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    }
+
+
+.login_secao_container_input::placeholder{
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-input);
+    font-weight: 400;
+}
+
+.login_secao_container_texto_suporte{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 9%;
+    margin-top: 0.5em;
+}
+
+.btn_login{
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    background-color: var(--cor-de-fundo-btn);
+    color: var(--cor-fonte-btn);
+    border-radius: 20px;
+    padding: 0.5em 5.5em;
+    margin: 1em 0;
+}
+
+.login_secao_container_texto_suporte_dois{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
